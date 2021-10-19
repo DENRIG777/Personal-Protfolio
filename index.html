@@ -68,7 +68,7 @@
                 </div>
                 <!-- About Section Content-->
                 <div class="row">
-                    <div class="col-12 ms-auto"><p class="lead">I am a software developer based in the United States. I help bring ideals to life in the form of software. Take a look and lets see if we can work together on your next project.  </p></div>
+                    <div class="col-12 ms-auto"><p class="lead">I am a software developer based in the United States. I help bring ideas to life in the form of software. Take a look and lets see if we can work together on your next project.  </p></div>
                     <div class="col-lg-4 me-auto"><p class="lead"></p></div>
                 </div>
                 <!-- About Section Button-->
@@ -138,7 +138,7 @@
                         <!-- To make this form functional, sign up at-->
                         <!-- https://startbootstrap.com/solution/contact-forms-->
                         <!-- to get an API token!-->
-                        <form name="contact"  id="contactForm"  data-netlify="true">
+                        <form name="contact"  id="contactForm" data-netlify-recaptcha="true" data-netlify="true">
                             <!-- Name input-->
                             <div class="form-floating mb-3">
                                 <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
@@ -164,6 +164,7 @@
                                 <label for="message">Message</label>
                                 <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
                             </div>
+                            
                             <!-- Submit success message-->
                             <!---->
                             <!-- This is what your users will see when the form-->
@@ -179,6 +180,7 @@
                             <!---->
                             <!-- This is what your users will see when there is-->
                             <!-- an error submitting the form-->
+
                             <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
                             <!-- Submit Button-->
                             <button class="btn btn-primary btn-xl" id="submitButton" type="submit">Fly</button>
